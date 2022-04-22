@@ -1,3 +1,85 @@
+/****************************Tag selectors*************************************/
 body {
-  background-color: blue;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+/****************************Class selectors***********************************/
+.top-container {
+  background-color: #C1FFD7;
+  text-align: center;
+}
+
+.middle-container {
+  background-color: #28DF99;
+  height: 500px;
+}
+
+.bottom-container {
+  height: 500px;
+  background-color: #C1FFD7;
+}
+
+.web-dev-image {
+  height: 500px;
+}
+
+.mongo-db-logo {
+  height: 120px;
+  position: absolute;
+  left: 115px;
+  top: 370px;
+}
+
+.express-js-logo {
+  height: 70px;
+  position: absolute;
+  left: 285px;
+  top: 390px;
+}
+
+.react-logo {
+  height: 100px;
+  position: absolute;
+  right: 345px;
+  top: 390px;
+}
+
+.node-js-logo {
+  height: 130px;
+  position: absolute;
+  top: 380px;
+  right: 125px;
+}
+
+.title-letter-M {
+  font-size: 120px;
+  position: absolute;
+  left: 120px;
+  top: 235px;
+}
+
+.title-letter-E {
+  font-size: 120px;
+  position: absolute;
+  left: 360px;
+  top: 235px;
+}
+
+.title-letter-R {
+  font-size: 120px;
+  position: absolute;
+  right: 360px;
+  top: 235px;
+}
+
+.title-letter-N {
+  font-size: 120px;
+  position: absolute;
+  right: 150px;
+  top: 235px;
 }
