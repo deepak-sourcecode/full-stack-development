@@ -1,30 +1,48 @@
 /****************************Tag selectors*************************************/
 body {
   margin: 0;
+  height: 1200px;
 }
 
 h1 {
-  margin: 0;
-  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 120px;
+  color: white;
+  margin-top: 2%;
+  margin-left: 22%;
+  position: absolute;
 }
 
 /****************************Class selectors***********************************/
 .top-container {
-  background-color: #C1FFD7;
-  text-align: center;
+  background-image: url('../images/top-container-image.jpg');
+  background-size: cover;
+  position: relative;
+  height: 63%;
+}
+
+.profile-picture {
+  height: 38%;
+  margin-left: 40%;
+  margin-top: 15%;
+  float: left;
+  position: absolute;
+}
+
+.intro-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 55px;
+  color: white;
+  margin-top: 38%;
+  margin-left: 28%;
+  position: absolute;
 }
 
 .middle-container {
-  background-color: #28DF99;
   height: 500px;
 }
 
 .bottom-container {
-  height: 500px;
-  background-color: #C1FFD7;
-}
-
-.web-dev-image {
   height: 500px;
 }
 
@@ -54,32 +72,4 @@ h1 {
   position: absolute;
   top: 380px;
   right: 125px;
-}
-
-.title-letter-M {
-  font-size: 120px;
-  position: absolute;
-  left: 120px;
-  top: 235px;
-}
-
-.title-letter-E {
-  font-size: 120px;
-  position: absolute;
-  left: 360px;
-  top: 235px;
-}
-
-.title-letter-R {
-  font-size: 120px;
-  position: absolute;
-  right: 360px;
-  top: 235px;
-}
-
-.title-letter-N {
-  font-size: 120px;
-  position: absolute;
-  right: 150px;
-  top: 235px;
 }
