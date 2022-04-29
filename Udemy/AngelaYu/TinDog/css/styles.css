@@ -13,10 +13,22 @@ h3 {
   padding-top: 5%;
 }
 
+h2 {
+  font-size: 3.3rem;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  color: white;
+  padding: 3% 15% 3% 15%;
+}
+
 p {
   color: grey;
   font-family: 'Montserrat';
   padding-top: 5%;
+}
+
+em{
+  color: white;
 }
 
 #title {
@@ -56,4 +68,29 @@ p {
 .feature-box {
   text-align: center;
   padding: 10% 10% 5% 10%;
+}
+
+
+#testimonials {
+  background-color:#ff4c68;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.testimonial-image{
+  width: 8%;
+  border-radius: 100%;
+  margin: 0 1.5% 1.5% 1.5%;
+}
+
+
+#press {
+  background-color:#ff4c68;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 8% 2% 10% 2%;
 }
