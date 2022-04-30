@@ -17,8 +17,6 @@ h2 {
   font-size: 3.3rem;
   font-family: 'Montserrat';
   font-weight: 800;
-  color: white;
-  padding: 3% 15% 3% 15%;
 }
 
 p {
@@ -78,6 +76,12 @@ em{
   font-weight: 700;
 }
 
+
+.testimonial-description{
+  color: white;
+  padding: 3% 15% 3% 15%;
+}
+
 .testimonial-image{
   width: 8%;
   border-radius: 100%;
@@ -93,4 +97,17 @@ em{
 .press-logo {
   width: 15%;
   margin: 8% 2% 10% 2%;
+}
+
+.card-group {
+  flex-flow: nowrap;
+}
+
+#pricing{
+  padding: 150px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
